@@ -10,7 +10,7 @@ function App() {
   return (
   <div className="container">
     <BrowserRouter>
-    <h1 className="header">Task Manager</h1>
+    
     <Routes>
        <Route path="/" element={<SigninPage/>}/>
        <Route path="signup" element={<SignupPage/>}/>
